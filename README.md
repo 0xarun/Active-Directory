@@ -1,5 +1,4 @@
 # Active-Directory
-All my AD stuffs I gonna post here!
 
 ## Blogs 
 
