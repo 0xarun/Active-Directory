@@ -96,8 +96,7 @@ https://tryhackme.com/room/raz0rblack
 
 https://tryhackme.com/room/adenumeration
 
-### THM AD Networks 
-
+## THM AD Networks 
 
 https://tryhackme.com/room/wreath
 
@@ -109,43 +108,27 @@ https://tryhackme.com/room/throwback
 
 ## Hackthebox
 
-## HTB Retried AD Boxes
+### HTB Retried AD Boxes
 
 Academy
-
 StreamIO
-
 Intelligence  
-
 PivotAPI 
-
 APT 
-
 Fuse 
-
 Blackfield	 
-
 Multimaster	 
-
 Cascade	 
-
 Sauna	 
-
 Monteverde	 
-
 Resolute	 
-
 Forest	 
-
 Sizzle	 
-
 Active	
-
 Reel	 
-
 Mantis
 
-### And check htb prolabs also (obviously expensive).
+**And check htb prolabs also (obviously expensive).**
 
 ## Youtube
 
@@ -159,4 +142,4 @@ https://www.youtube.com/watch?v=x4SDASQ5NUk
 
 https://www.youtube.com/watch?v=vga7A2tYejE
 
-### Updates are coming
+### Updates are coming...
