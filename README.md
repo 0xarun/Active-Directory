@@ -1,6 +1,6 @@
 # Active-Directory
 
-In repository you can find some of public AD stuff's and also my own notes about AD.    
+In repository you can find some of the public AD stuff's and also my own notes about AD.    
 
 ## Blogs 
 
