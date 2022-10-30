@@ -1,0 +1,2 @@
+# Nmap 7.92 scan initiated Fri Oct 28 01:36:50 2022 as: /usr/bin/nmap -T4 --max-retries 1 --max-scan-delay 20 --open -oN nmap/Port_10.10.234.85.nmap --system-dns --stats-every 1s 10.10.234.85
+# Nmap done at Fri Oct 28 01:36:52 2022 -- 1 IP address (0 hosts up) scanned in 2.09 seconds

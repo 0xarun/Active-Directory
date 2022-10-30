@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Oct 29 01:59:54 2022 as: nmap -sC -sV -oA nmap/scan-result -Pn 10.10.191.243
+Host: 10.10.191.243 ()	Status: Up
+Host: 10.10.191.243 ()	Ports: 53/open/tcp//domain//Simple DNS Plus/, 88/open/tcp//kerberos-sec//Microsoft Windows Kerberos (server time: 2022-10-29 06:00:27Z)/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 389/open/tcp//ldap//Microsoft Windows Active Directory LDAP (Domain: vulnnet-rst.local0., Site: Default-First-Site-Name)/, 445/open/tcp//microsoft-ds?///, 464/open/tcp//kpasswd5?///, 593/open/tcp//ncacn_http//Microsoft Windows RPC over HTTP 1.0/, 636/open/tcp//tcpwrapped///, 3268/open/tcp//ldap//Microsoft Windows Active Directory LDAP (Domain: vulnnet-rst.local0., Site: Default-First-Site-Name)/, 3269/open/tcp//tcpwrapped///	Ignored State: filtered (989)
+# Nmap done at Sat Oct 29 02:01:30 2022 -- 1 IP address (1 host up) scanned in 95.87 seconds

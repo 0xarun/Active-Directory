@@ -1,0 +1,156 @@
+
+[0;33mRunning all scans on [0m10.10.234.85
+[0m
+[0;32mHost is likely running Windows
+
+
+[0;32m---------------------Starting Port Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Ping Scan (0:00:01 elapsed - 0:00:01 remaining)   
+[##################################################>                                                  ] 50% done   
+[2A[0K
+[0K
+
+
+
+[0;32m---------------------Starting Script Scan-----------------------
+[0m
+[0;33mNo ports in port scan.. Skipping!
+
+
+
+[0;32m---------------------Starting Full Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2A[0K
+[0K
+
+
+[0;33mMaking a script scan on all ports
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2A[0K
+[0K
+
+
+
+[0;32m----------------------Starting UDP Scan------------------------
+[0m
+UDP needs to be run as root, running with sudo...
+
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: UDP Scan (0:00:03 elapsed - 0:04:57 remaining)   
+[#>                                                                                                   ] 1% done   
+[2AIn progress: UDP Scan (0:00:07 elapsed - 0:04:33 remaining)   
+[##>                                                                                                  ] 2% done   
+[2AIn progress: UDP Scan (0:00:09 elapsed - 0:04:08 remaining)   
+[###>                                                                                                 ] 3% done   
+[2AIn progress: UDP Scan (0:00:15 elapsed - 0:03:55 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: UDP Scan (0:00:15 elapsed - 0:03:55 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: UDP Scan (0:00:21 elapsed - 0:02:41 remaining)   
+[###########>                                                                                         ] 11% done   
+[2AIn progress: UDP Scan (0:00:21 elapsed - 0:02:41 remaining)   
+[###########>                                                                                         ] 11% done   
+[2AIn progress: UDP Scan (0:00:27 elapsed - 0:00:45 remaining)   
+[#####################################>                                                               ] 37% done   
+[2AIn progress: UDP Scan (0:00:30 elapsed - 0:00:26 remaining)   
+[#####################################################>                                               ] 53% done   
+[2AIn progress: UDP Scan (0:00:33 elapsed - 0:00:13 remaining)   
+[#######################################################################>                             ] 71% done   
+[2AIn progress: UDP Scan (0:00:36 elapsed - 0:00:03 remaining)   
+[###########################################################################################>         ] 91% done   
+[2A[0K
+[0K
+PORT    STATE SERVICE
+53/udp  open  domain
+123/udp open  ntp
+389/udp open  ldap
+
+
+[0;33mMaking a script scan on UDP ports: 53, 123, 389
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: UDP Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[###################################################################################>                 ] 83% done   
+[2AIn progress: Service Scan (0:00:04 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:04 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:09 elapsed - 0:00:03 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:09 elapsed - 0:00:03 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:05 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:05 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:05 remaining)   
+[#################################>                 ] 66% done   
+[2AIn progress: Service Scan (0:00:19 elapsed - 0:00:08 remaining)   
+[#################################>                 ] 66% done   
+[2AIn progress: Service Scan (0:00:19 elapsed - 0:00:08 remaining)   
+[#################################>                 ] 66% done   
+[2AIn progress: Service Scan (0:00:24 elapsed - 0:00:00 remaining)   
+[##################################################> ] 100% done   
+[2A[0K
+[0K
+PORT    STATE SERVICE VERSION
+53/udp  open  domain  (generic dns response: SERVFAIL)
+| fingerprint-strings: 
+|   NBTStat: 
+|_    CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+123/udp open  ntp     NTP v3
+389/udp open  ldap    Microsoft Windows Active Directory LDAP (Domain: vulnnet.local0., Site: Default-First-Site-Name)
+Service Info: Host: VULNNET-BC3TCK1; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+
+
+
+[0;32m---------------------Starting Vulns Scan-----------------------
+[0m
+[0;33mRunning CVE scan on common ports
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2A[0K
+[0K
+
+
+[0;33mRunning Vuln scan on common ports
+[0;33mThis may take a while, depending on the number of detected services..
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                  ] 0% done   
+[2A[0K
+[0K
+
+
+
+[0;32m---------------------Recon Recommendations---------------------
+[0m
+
+
+
+[0;33mNo Recon Recommendations found...
+[0m
+
+
+[0;32m---------------------Finished all scans------------------------
+[0m
+
+[0;33mCompleted in 1 minute(s) and 21 second(s)
+[0m

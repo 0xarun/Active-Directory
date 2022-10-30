@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Fri Oct 28 01:30:39 2022 as: nmap -sC -sV -oA nmap/scan-result -Pn 10.10.234.85
+Host: 10.10.234.85 ()	Status: Up
+Host: 10.10.234.85 ()	Ports: 53/open/tcp//domain//Simple DNS Plus/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 464/open/tcp//kpasswd5?///	Ignored State: filtered (995)
+# Nmap done at Fri Oct 28 01:32:00 2022 -- 1 IP address (1 host up) scanned in 81.04 seconds

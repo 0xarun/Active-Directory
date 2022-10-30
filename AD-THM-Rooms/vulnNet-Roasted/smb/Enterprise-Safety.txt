@@ -1,0 +1,12 @@
+VULNNET SAFETY
+~~~~~~~~~~~~~~~~
+
+Tony Skid is a core security manager and takes care of internal infrastructure.
+We keep your data safe and private. When it comes to protecting your private information...
+we’ve got it locked down tighter than Alcatraz. 
+We partner with TryHackMe, use 128-bit SSL encryption, and create daily backups. 
+And we never, EVER disclose any data to third-parties without your permission. 
+Rest easy, nothing’s getting out of here alive.
+
+~VulnNet Entertainment
+~TryHackMe
