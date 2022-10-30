@@ -1,5 +1,7 @@
 # Active-Directory
 
+In repository you can find some of public AD stuff's and also my own notes about AD.    
+
 ## Blogs 
 
 https://www.hackthebox.com/blog/introduction-to-active-directory
