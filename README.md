@@ -1,5 +1,7 @@
 # Active-Directory
 
+![](image_ad.png)
+
 In repository you can find some of public AD stuff's and also my own notes about AD.    
 
 ## Blogs 
