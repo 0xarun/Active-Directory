@@ -112,23 +112,15 @@ https://tryhackme.com/room/throwback
 
 ### HTB Retried AD Boxes
 
-Academy
-StreamIO
-Intelligence  
-PivotAPI 
-APT 
-Fuse 
-Blackfield	 
-Multimaster	 
-Cascade	 
-Sauna	 
-Monteverde	 
-Resolute	 
-Forest	 
-Sizzle	 
-Active	
-Reel	 
-Mantis
+Academy | StreamIO | Intelligence  
+
+PivotAPI | APT | Fuse | Blackfield
+
+Multimaster | Cascade	| Sauna
+
+Monteverde | Resolute	| Forest
+
+Sizzle |	Active	| Reel | Mantis
 
 **And check htb prolabs also (obviously expensive).**
 
@@ -144,4 +136,4 @@ https://www.youtube.com/watch?v=x4SDASQ5NUk
 
 https://www.youtube.com/watch?v=vga7A2tYejE
 
-### Updates are coming...
+### Updates are loading...
