@@ -82,8 +82,10 @@ In this repository you can find some of the public AD stuff's and also my own no
 - > **Also check out the tools repo I will update all the tools soon**
 
 <br>
+<hr>
+<br>
 
-# **Practice**
+<h1 align=center>Practice</h1>
 
 <br>
 
