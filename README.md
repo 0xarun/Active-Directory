@@ -1,139 +1,164 @@
-# Active-Directory
+<div align=center>
+<h1>Active-Directory</h1>
 
 In this repository you can find some of the public AD stuff's and also my own notes about AD.    
+</div>
+<br>
 
-## Blogs 
+## **Blogs** 
 
-https://www.hackthebox.com/blog/introduction-to-active-directory
+- https://www.hackthebox.com/blog/introduction-to-active-directory
 
-https://adsecurity.org/
+- https://adsecurity.org/
 
-https://pentestlab.blog/category/red-team/
+- https://pentestlab.blog/category/red-team/
 
-https://www.ired.team/
+- https://www.ired.team/
 
-https://redteamlabs.in/active-directory-penetration-testing/
+- https://redteamlabs.in/active-directory-penetration-testing/
 
-https://www.hackingarticles.in/red-teaming/
+- https://www.hackingarticles.in/red-teaming/
 
-https://h4ms1k.github.io/Red_Team_Active_Directory/#
+- https://h4ms1k.github.io/Red_Team_Active_Directory/#
 
-https://notes.benheater.com/books/active-directory
+- https://notes.benheater.com/books/active-directory
 
-https://zer1t0.gitlab.io/posts/attacking_ad/
+- https://zer1t0.gitlab.io/posts/attacking_ad/
 
-https://blog.harmj0y.net/category/activedirectory/
+- https://blog.harmj0y.net/category/activedirectory/
 
-https://0xsp.com/offensive/active-directory-attack-defense/
+- https://0xsp.com/offensive/active-directory-attack-defense/
 
-https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
+- https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
 
-https://0x1.gitlab.io/pentesting/Active-Directory-Kill-Chain-Attack-and-Defense/
+- https://0x1.gitlab.io/pentesting/Active-Directory-Kill-Chain-Attack-and-Defense/
 
-https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/
+- https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/
 
-https://resources.infosecinstitute.com/topic/red-teaming-tutorial-active-directory-pentesting-approach-and-tools/
+- https://resources.infosecinstitute.com/topic/red-teaming-tutorial-active-directory-pentesting-approach-and-tools/
 
-https://dmcxblue.gitbook.io/red-team-notes-2-0/active-directory/active-directory
+- https://dmcxblue.gitbook.io/red-team-notes-2-0/active-directory/active-directory
 
-https://hausec.com/2019/03/05/penetration-testing-active-directory-part-i/
+- https://hausec.com/2019/03/05/penetration-testing-active-directory-part-i/
 
-## Kerberoasting
+<br>
 
-https://heartburn.dev/kerberos-fundamentals/
+## **Kerberoasting**
 
-https://www.hackingarticles.in/deep-dive-into-kerberoasting-attack/
+- https://heartburn.dev/kerberos-fundamentals/
 
-https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting
+- https://www.hackingarticles.in/deep-dive-into-kerberoasting-attack/
 
-https://book.hacktricks.xyz/windows/active-directory-methodology/kerberoast
+- https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting
 
-https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f
+- https://book.hacktricks.xyz/windows/active-directory-methodology/kerberoast
 
-https://aristanetworks.force.com/AristaCommunity/s/article/Kerberoasting-Threat-Hunting-for-Active-Directory-Attacks#Comm_Kna_ka02I000000brVuQAI_71
+- https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f
 
-https://www.slideshare.net/harmj0y/derbycon-2019-kerberoasting-revisited
+- https://aristanetworks.force.com/AristaCommunity/s/article/Kerberoasting-Threat-Hunting-for-Active-Directory-Attacks#Comm_Kna_ka02I000000brVuQAI_71
 
-## Tools
+- https://www.slideshare.net/harmj0y/derbycon-2019-kerberoasting-revisited
 
-[Impacket](https://github.com/CoreSecurity/impacket)
+<br>
 
-[Responder](https://github.com/lgandx/Responder)
+## **Tools**
 
-[mimikatz](https://github.com/gentilkiwi/mimikatz)
+- [Impacket](https://github.com/CoreSecurity/impacket)
 
-[Adexplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer)
+- [Responder](https://github.com/lgandx/Responder)
 
-[CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
+- [mimikatz](https://github.com/gentilkiwi/mimikatz)
 
-[mitm6](https://github.com/fox-it/mitm6.git)
+- [Adexplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer)
 
-[ADRecon](https://github.com/sense-of-security/ADRecon)
+- [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
 
-[Rubeus](https://github.com/GhostPack/Rubeus)
+- [mitm6](https://github.com/fox-it/mitm6.git)
 
-**Also check out the tools repo I will update all the tools soon**
+- [ADRecon](https://github.com/sense-of-security/ADRecon)
 
-# Pratice
+- [Rubeus](https://github.com/GhostPack/Rubeus)
 
-## Tryhackme
+- > **Also check out the tools repo I will update all the tools soon**
 
-### List are the free ad rooms in tryhackme
+<br>
 
-https://tryhackme.com/room/winadbasics
+# **Practice**
 
-https://tryhackme.com/room/attacktivedirectory
+<br>
 
-https://tryhackme.com/room/breachingad
+## **Tryhackme**
+<br>
 
-https://tryhackme.com/room/vulnnetroasted
+### List of Free AD Rooms
 
-https://tryhackme.com/room/cve202226923
+- https://tryhackme.com/room/winadbasics
 
-https://tryhackme.com/room/vulnnetactive
+- https://tryhackme.com/room/attacktivedirectory
 
-https://tryhackme.com/room/enterprise
+- https://tryhackme.com/room/breachingad
 
-https://tryhackme.com/room/raz0rblack
+- https://tryhackme.com/room/vulnnetroasted
 
-https://tryhackme.com/room/adenumeration
+- https://tryhackme.com/room/cve202226923
 
-## THM AD Networks 
+- https://tryhackme.com/room/vulnnetactive
 
-https://tryhackme.com/room/wreath
+- https://tryhackme.com/room/enterprise
 
-https://tryhackme.com/module/hacking-active-directory
+- https://tryhackme.com/room/raz0rblack
 
-https://tryhackme.com/room/hololive
+- https://tryhackme.com/room/adenumeration
 
-https://tryhackme.com/room/throwback
+<br>
 
-## Hackthebox
+### THM AD Networks
 
-### HTB Retried AD Boxes
+- https://tryhackme.com/room/wreath
 
-Academy | StreamIO | Intelligence  
+- https://tryhackme.com/module/hacking-active-directory
 
-PivotAPI | APT | Fuse | Blackfield
+- https://tryhackme.com/room/hololive
 
-Multimaster | Cascade	| Sauna
+- https://tryhackme.com/room/throwback
 
-Monteverde | Resolute	| Forest
+<br>
 
-Sizzle |	Active	| Reel | Mantis
+## **Hackthebox**
 
-**And check htb prolabs also (obviously expensive).**
+    HTB Retired AD Boxes
+    -----------------------------------------
 
-## Youtube
+     Academy     | StreamIO  | Intelligence  
 
-https://www.youtube.com/watch?v=Yr7mxgP4mII
+     PivotAPI    |   APT     | Blackfield
+ 
+     Multimaster | Cascade	 | Sauna
 
-https://www.youtube.com/watch?v=8zkQvZSJEqA
+     Monteverde  | Resolute	 | Forest
 
-https://www.youtube.com/watch?v=lZ99RHv87Lk
+     Sizzle      |	Active	 | Reel 
+    
+     Mantis      |  Fuse
+>**Refer HTB's Prolabs also (obviously expensive)**
 
-https://www.youtube.com/watch?v=x4SDASQ5NUk
+<br>
 
-https://www.youtube.com/watch?v=vga7A2tYejE
+## **Youtube**
 
-### Updates are loading...
+- https://www.youtube.com/watch?v=Yr7mxgP4mII
+
+- https://www.youtube.com/watch?v=8zkQvZSJEqA
+
+- https://www.youtube.com/watch?v=lZ99RHv87Lk
+
+- https://www.youtube.com/watch?v=x4SDASQ5NUk
+
+- https://www.youtube.com/watch?v=vga7A2tYejE
+
+---
+
+<br>
+<br>
+
+<h2 align=center><i>Stay tuned for future updates...</i><3</h2>
