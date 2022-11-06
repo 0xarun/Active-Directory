@@ -1,0 +1,50 @@
+# Nmap 7.92 scan initiated Sat Nov  5 11:58:54 2022 as: /usr/bin/nmap -sCV -p53,80,88,135,139,389,445,464,593,636,3268,3269,3389,5357 --open -oN nmap/Script_10.10.142.109.nmap --system-dns --stats-every 2s 10.10.142.109
+Nmap scan report for 10.10.142.109
+Host is up (0.24s latency).
+
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+80/tcp   open  http          Microsoft IIS httpd 10.0
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2022-11-05 15:59:04Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: ENTERPRISE.THM0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: ENTERPRISE.THM0., Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=LAB-DC.LAB.ENTERPRISE.THM
+| Not valid before: 2022-11-04T15:56:20
+|_Not valid after:  2023-05-06T15:56:20
+| rdp-ntlm-info: 
+|   Target_Name: LAB-ENTERPRISE
+|   NetBIOS_Domain_Name: LAB-ENTERPRISE
+|   NetBIOS_Computer_Name: LAB-DC
+|   DNS_Domain_Name: LAB.ENTERPRISE.THM
+|   DNS_Computer_Name: LAB-DC.LAB.ENTERPRISE.THM
+|   DNS_Tree_Name: ENTERPRISE.THM
+|   Product_Version: 10.0.17763
+|_  System_Time: 2022-11-05T15:59:22+00:00
+|_ssl-date: 2022-11-05T15:59:32+00:00; 0s from scanner time.
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Service Unavailable
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: Host: LAB-DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2022-11-05T15:59:24
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  5 11:59:40 2022 -- 1 IP address (1 host up) scanned in 46.46 seconds
