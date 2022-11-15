@@ -10,6 +10,8 @@ https://adsecurity.org/
 
 https://pentestlab.blog/category/red-team/
 
+https://www.whiteoaksecurity.com/blog/active-directory-security/
+
 https://www.ired.team/
 
 https://redteamlabs.in/active-directory-penetration-testing/
