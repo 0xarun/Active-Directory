@@ -1,0 +1,33 @@
+[0;32m---------------------Recon Recommendations---------------------
+[0m
+[0m
+[0;33mDNS Recon:
+[0m
+host -l "10.10.253.37" "192.168.59.78" | tee "recon/hostname_10.10.253.37.txt"
+dnsrecon -r "10.10.253.0/24" -n "192.168.59.78" | tee "recon/dnsrecon_10.10.253.37.txt"
+dnsrecon -r 127.0.0.0/24 -n "192.168.59.78" | tee "recon/dnsrecon-local_10.10.253.37.txt"
+dig -x "10.10.253.37" @192.168.59.78 | tee "recon/dig_10.10.253.37.txt"
+
+[0m
+[0;33mWeb Servers Recon:
+[0m
+nikto -host "http://10.10.253.37:593" | tee "recon/nikto_10.10.253.37_593.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.253.37:593/FUZZ" | tee "recon/ffuf_10.10.253.37_593.txt"
+
+[0m
+[0;33mldap Recon:
+[0m
+ldapsearch -x -h "10.10.253.37" -s base | tee "recon/ldapsearch_10.10.253.37.txt"
+ldapsearch -x -h "10.10.253.37" -b "$(grep rootDomainNamingContext "recon/ldapsearch_10.10.253.37.txt" | cut -d ' ' -f2)" | tee "recon/ldapsearch_DC_10.10.253.37.txt"
+nmap -Pn -p 389 --script ldap-search --script-args 'ldap.username="$(grep rootDomainNamingContext "recon/ldapsearch_10.10.253.37.txt" | cut -d \ \ -f2)"' "10.10.253.37" -oN "recon/nmap_ldap_10.10.253.37.txt"
+
+[0m
+[0;33mSMB Recon:
+[0m
+smbmap -H "10.10.253.37" | tee "recon/smbmap_10.10.253.37.txt"
+smbclient -L "//10.10.253.37/" -U "guest"% | tee "recon/smbclient_10.10.253.37.txt"
+nmap -Pn -p445 --script vuln -oN "recon/SMB_vulns_10.10.253.37.txt" "10.10.253.37"
+
+
+
+

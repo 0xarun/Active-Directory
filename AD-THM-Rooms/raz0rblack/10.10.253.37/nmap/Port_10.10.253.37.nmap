@@ -1,0 +1,21 @@
+# Nmap 7.92 scan initiated Sun Nov 13 23:17:11 2022 as: /usr/bin/nmap -T4 --max-retries 1 --max-scan-delay 20 --open -oN nmap/Port_10.10.253.37.nmap --system-dns --stats-every 1s 10.10.253.37
+Warning: 10.10.253.37 giving up on port because retransmission cap hit (1).
+Nmap scan report for 10.10.253.37
+Host is up (0.22s latency).
+Not shown: 713 closed tcp ports (conn-refused), 275 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+111/tcp  open  rpcbind
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+
+# Nmap done at Sun Nov 13 23:17:33 2022 -- 1 IP address (1 host up) scanned in 22.77 seconds

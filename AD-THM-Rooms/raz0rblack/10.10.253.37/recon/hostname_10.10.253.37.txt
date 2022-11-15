@@ -1,0 +1,6 @@
+Using domain server:
+Name: 192.168.59.78
+Address: 192.168.59.78#53
+Aliases: 
+
+Host 37.253.10.10.in-addr.arpa. not found: 3(NXDOMAIN)
