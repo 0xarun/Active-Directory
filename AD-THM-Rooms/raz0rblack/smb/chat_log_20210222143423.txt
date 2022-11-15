@@ -1,0 +1,18 @@
+sbradley> Hey Administrator our machine has the newly disclosed vulnerability for Windows Server 2019.
+Administrator> What vulnerability??
+sbradley> That new CVE-2020-1472 which is called ZeroLogon has released a new PoC.
+Administrator> I have given you the last warning. If you exploit this on this Domain Controller as you did previously on our old Ubuntu server with dirtycow, I swear I will kill your WinRM-Access.
+sbradley> Hey you won't believe what I am seeing.
+Administrator> Now, don't say that you ran the exploit.
+sbradley> Yeah, The exploit works great it needs nothing like credentials. Just give it IP and domain name and it resets the Administrator pass to an empty hash.
+sbradley> I also used some tools to extract ntds. dit and SYSTEM.hive and transferred it into my box. I love running secretsdump.py on those files and dumped the hash.
+Administrator> I am feeling like a new cron has been issued in my body named heart attack which will be executed within the next minute.
+Administrator> But, Before I die I will kill your WinRM access..........
+sbradley> I have made an encrypted zip containing the ntds.dit and the SYSTEM.hive and uploaded the zip inside the trash share.
+sbradley> Hey Administrator are you there ...
+sbradley> Administrator .....
+
+The administrator died after this incident.
+
+Press F to pay respects
+
