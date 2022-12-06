@@ -56,6 +56,17 @@ https://aristanetworks.force.com/AristaCommunity/s/article/Kerberoasting-Threat-
 
 https://www.slideshare.net/harmj0y/derbycon-2019-kerberoasting-revisited
 
+## Lab
+
+https://gustavshen.medium.com/how-did-i-design-and-build-a-complex-ad-set-451029702c5
+
+https://www.hackingarticles.in/active-directory-pentesting-lab-setup/
+
+https://shellcode.blog/Vulnerable-AD-Lab-IaC/
+
+https://www.youtube.com/watch?v=xftEuVQ7kY0
+
+
 ## Tools
 
 [Impacket](https://github.com/CoreSecurity/impacket)
