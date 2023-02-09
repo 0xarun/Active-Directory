@@ -1,0 +1,8 @@
+WARNING: Duplicate port number(s) specified.  Are you alert enough to be using Nmap?  Have some coffee or Jolt(tm).
+# Nmap 7.92 scan initiated Wed Feb  8 23:12:14 2023 as: /usr/bin/nmap -sV --script vuln -p53,80,88,135,139,389,445,464,593,636,53,80,88,135,139,389,445,464,593,636,5985,9389,49669,49673,49674,49677,49689,49696 --open -oN nmap/Vulns_10.10.10.175.nmap --system-dns --stats-every 3s 10.10.10.175
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).

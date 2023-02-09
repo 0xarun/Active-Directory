@@ -1,0 +1,17 @@
+# Nmap 7.92 scan initiated Wed Feb  8 23:08:21 2023 as: /usr/bin/nmap -sCVU --script vulners --script-args mincvss=7.0 -p53,123 --open -oN nmap/UDP_Extra_10.10.10.175.nmap --system-dns --stats-every 2s 10.10.10.175
+Nmap scan report for egotistical-bank.local (10.10.10.175)
+Host is up (0.28s latency).
+
+PORT    STATE SERVICE VERSION
+53/udp  open  domain  (generic dns response: SERVFAIL)
+| fingerprint-strings: 
+|   NBTStat: 
+|_    CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+123/udp open  ntp     NTP v3
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-UDP:V=7.92%I=7%D=2/8%Time=63E471CD%P=x86_64-pc-linux-gnu%r(NBTSt
+SF:at,32,"\x80\xf0\x80\x82\0\x01\0\0\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAAAAA
+SF:AAAAAA\0\0!\0\x01");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb  8 23:09:01 2023 -- 1 IP address (1 host up) scanned in 40.58 seconds

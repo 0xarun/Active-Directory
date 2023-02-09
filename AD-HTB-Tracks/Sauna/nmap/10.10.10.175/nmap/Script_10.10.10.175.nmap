@@ -1,0 +1,32 @@
+# Nmap 7.92 scan initiated Wed Feb  8 22:53:59 2023 as: /usr/bin/nmap -sCV -p53,80,88,135,139,389,445,464,593,636 --open -oN nmap/Script_10.10.10.175.nmap --system-dns --stats-every 2s 10.10.10.175
+Nmap scan report for 10.10.10.175
+Host is up (0.31s latency).
+
+PORT    STATE SERVICE       VERSION
+53/tcp  open  domain        Simple DNS Plus
+80/tcp  open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-title: Egotistical Bank :: Home
+88/tcp  open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-02-09 11:55:02Z)
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: EGOTISTICAL-BANK.LOCAL0., Site: Default-First-Site-Name)
+445/tcp open  microsoft-ds?
+464/tcp open  kpasswd5?
+593/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp open  tcpwrapped
+Service Info: Host: SAUNA; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 8h00m47s
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2023-02-09T11:55:29
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb  8 22:55:22 2023 -- 1 IP address (1 host up) scanned in 82.37 seconds
