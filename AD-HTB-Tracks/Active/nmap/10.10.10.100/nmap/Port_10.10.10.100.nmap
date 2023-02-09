@@ -1,0 +1,26 @@
+# Nmap 7.92 scan initiated Thu Feb  9 18:09:22 2023 as: /usr/bin/nmap -T4 --max-retries 1 --max-scan-delay 20 --open -oN nmap/Port_10.10.10.100.nmap --system-dns --stats-every 1s 10.10.10.100
+Warning: 10.10.10.100 giving up on port because retransmission cap hit (1).
+Nmap scan report for 10.10.10.100
+Host is up (0.29s latency).
+Not shown: 982 closed tcp ports (reset)
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+49165/tcp open  unknown
+
+# Nmap done at Thu Feb  9 18:09:34 2023 -- 1 IP address (1 host up) scanned in 12.84 seconds

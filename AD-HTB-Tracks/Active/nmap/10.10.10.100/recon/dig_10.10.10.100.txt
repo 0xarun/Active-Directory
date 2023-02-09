@@ -1,0 +1,5 @@
+
+; <<>> DiG 9.18.1-1-Debian <<>> -x 10.10.10.100 @10.200.25.101
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+

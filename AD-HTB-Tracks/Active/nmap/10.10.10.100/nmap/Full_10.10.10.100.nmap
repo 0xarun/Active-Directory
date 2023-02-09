@@ -1,0 +1,32 @@
+# Nmap 7.92 scan initiated Thu Feb  9 18:11:11 2023 as: /usr/bin/nmap -p- --max-retries 1 --max-rate 500 --max-scan-delay 20 -T4 -v --open -oN nmap/Full_10.10.10.100.nmap --system-dns --stats-every 3s 10.10.10.100
+Nmap scan report for 10.10.10.100
+Host is up (0.29s latency).
+Not shown: 65446 closed tcp ports (reset), 66 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+5722/tcp  open  msdfsr
+9389/tcp  open  adws
+47001/tcp open  winrm
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+49165/tcp open  unknown
+49166/tcp open  unknown
+49168/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Feb  9 18:13:43 2023 -- 1 IP address (1 host up) scanned in 151.44 seconds

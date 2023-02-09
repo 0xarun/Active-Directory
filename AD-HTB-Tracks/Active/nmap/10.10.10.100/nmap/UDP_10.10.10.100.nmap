@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Thu Feb  9 18:14:58 2023 as: /usr/bin/nmap -sU --max-retries 1 --open --open -oN nmap/UDP_10.10.10.100.nmap --system-dns --stats-every 3s 10.10.10.100
+Warning: 10.10.10.100 giving up on port because retransmission cap hit (1).
+Nmap scan report for active.htb (10.10.10.100)
+Host is up (0.30s latency).
+Not shown: 676 open|filtered udp ports (no-response), 322 closed udp ports (port-unreach)
+PORT    STATE SERVICE
+53/udp  open  domain
+123/udp open  ntp
+
+# Nmap done at Thu Feb  9 18:20:30 2023 -- 1 IP address (1 host up) scanned in 331.37 seconds

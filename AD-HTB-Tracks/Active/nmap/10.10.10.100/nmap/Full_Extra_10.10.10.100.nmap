@@ -1,0 +1,16 @@
+# Nmap 7.92 scan initiated Thu Feb  9 18:13:45 2023 as: /usr/bin/nmap -sCV -p5722,9389,47001,49166,49168 --open -oN nmap/Full_Extra_10.10.10.100.nmap --system-dns --stats-every 2s 10.10.10.100
+Nmap scan report for active.htb (10.10.10.100)
+Host is up (0.45s latency).
+
+PORT      STATE SERVICE VERSION
+5722/tcp  open  msrpc   Microsoft Windows RPC
+9389/tcp  open  mc-nmf  .NET Message Framing
+47001/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49166/tcp open  msrpc   Microsoft Windows RPC
+49168/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb  9 18:14:56 2023 -- 1 IP address (1 host up) scanned in 71.25 seconds

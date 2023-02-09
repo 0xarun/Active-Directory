@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Thu Feb  9 18:20:31 2023 as: /usr/bin/nmap -sCVU --script vulners --script-args mincvss=7.0 -p53,123 --open -oN nmap/UDP_Extra_10.10.10.100.nmap --system-dns --stats-every 2s 10.10.10.100
+Nmap scan report for active.htb (10.10.10.100)
+Host is up (0.31s latency).
+
+PORT    STATE SERVICE VERSION
+53/udp  open  domain  Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+123/udp open  ntp     NTP v3
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb  9 18:20:45 2023 -- 1 IP address (1 host up) scanned in 14.07 seconds
