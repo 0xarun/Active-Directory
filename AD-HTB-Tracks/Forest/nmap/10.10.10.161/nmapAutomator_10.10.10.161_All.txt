@@ -1,0 +1,361 @@
+
+[0;33mRunning all scans on [0m10.10.10.161
+[0m
+[0;32mHost is likely running Windows
+
+
+[0;32m---------------------Starting Port Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:05 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:06 elapsed - 0:00:19 remaining)   
+[#####>                                                                                               ] 5% done   
+[2AIn progress: SYN Stealth Scan (0:00:07 elapsed - 0:00:19 remaining)   
+[#########>                                                                                           ] 9% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+
+
+
+[0;32m---------------------Starting Script Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Ping Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Ping Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:07 elapsed - 0:00:00 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:09 elapsed - 0:00:10 remaining)   
+[#########>                                                                                           ] 9% done   
+[2AIn progress: Service Scan (0:00:09 elapsed - 0:00:10 remaining)   
+[#########>                                                                                           ] 9% done   
+[2AIn progress: Service Scan (0:00:09 elapsed - 0:00:10 remaining)   
+[#########>                                                                                           ] 9% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:04 remaining)   
+[###############################################################>                                     ] 63% done   
+[2AIn progress: Service Scan (0:00:17 elapsed - 0:00:01 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:18 elapsed - 0:00:01 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:20 elapsed - 0:00:01 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:02 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:24 elapsed - 0:00:02 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:27 elapsed - 0:00:02 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:28 elapsed - 0:00:02 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:00 remaining)   
+[####################################################################################################> ] 100% done   
+[2AIn progress: Script Scan (0:00:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:36 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:42 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:46 elapsed - 0:00:00 remaining)   
+[######################################################################################>              ] 86% done   
+[2AIn progress: Script Scan (0:00:48 elapsed - 0:00:00 remaining)   
+[###############################################################################################>     ] 95% done   
+[2AIn progress: Script Scan (0:00:50 elapsed - 0:00:00 remaining)   
+[################################################################################################>    ] 96% done   
+[2AIn progress: Script Scan (0:00:52 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2A[0K
+[0K
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       Simple DNS Plus
+88/tcp   open  kerberos-sec Microsoft Windows Kerberos (server time: 2023-02-08 14:45:20Z)
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds Windows Server 2016 Standard 14393 microsoft-ds (workgroup: HTB)
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+Service Info: Host: FOREST; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 3h47m35s, deviation: 4h37m09s, median: 1h07m34s
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2023-02-08T14:45:40
+|_  start_date: 2023-02-08T14:42:27
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard 14393 (Windows Server 2016 Standard 6.3)
+|   Computer name: FOREST
+|   NetBIOS computer name: FOREST\x00
+|   Domain name: htb.local
+|   Forest name: htb.local
+|   FQDN: FOREST.htb.local
+|_  System time: 2023-02-08T06:45:39-08:00
+
+
+
+
+[0;32m---------------------Starting Full Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:05 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:09 elapsed - 0:02:14 remaining)   
+[##>                                                                                                  ] 2% done   
+[2AIn progress: SYN Stealth Scan (0:00:12 elapsed - 0:02:16 remaining)   
+[####>                                                                                                ] 4% done   
+[2AIn progress: SYN Stealth Scan (0:00:15 elapsed - 0:02:10 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: SYN Stealth Scan (0:00:18 elapsed - 0:02:05 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: SYN Stealth Scan (0:00:21 elapsed - 0:02:03 remaining)   
+[##########>                                                                                          ] 10% done   
+[2AIn progress: SYN Stealth Scan (0:00:24 elapsed - 0:01:59 remaining)   
+[#############>                                                                                       ] 13% done   
+[2AIn progress: SYN Stealth Scan (0:00:27 elapsed - 0:01:56 remaining)   
+[###############>                                                                                     ] 15% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:01:53 remaining)   
+[#################>                                                                                   ] 17% done   
+[2AIn progress: SYN Stealth Scan (0:00:33 elapsed - 0:01:49 remaining)   
+[###################>                                                                                 ] 19% done   
+[2AIn progress: SYN Stealth Scan (0:00:36 elapsed - 0:01:46 remaining)   
+[######################>                                                                              ] 22% done   
+[2AIn progress: SYN Stealth Scan (0:00:39 elapsed - 0:01:43 remaining)   
+[########################>                                                                            ] 24% done   
+[2AIn progress: SYN Stealth Scan (0:00:42 elapsed - 0:01:39 remaining)   
+[##########################>                                                                          ] 26% done   
+[2AIn progress: SYN Stealth Scan (0:00:45 elapsed - 0:01:36 remaining)   
+[############################>                                                                        ] 28% done   
+[2AIn progress: SYN Stealth Scan (0:00:48 elapsed - 0:01:36 remaining)   
+[##############################>                                                                      ] 30% done   
+[2AIn progress: SYN Stealth Scan (0:00:51 elapsed - 0:01:34 remaining)   
+[################################>                                                                    ] 32% done   
+[2AIn progress: SYN Stealth Scan (0:00:54 elapsed - 0:01:30 remaining)   
+[##################################>                                                                  ] 34% done   
+[2AIn progress: SYN Stealth Scan (0:00:57 elapsed - 0:01:26 remaining)   
+[#####################################>                                                               ] 37% done   
+[2AIn progress: SYN Stealth Scan (0:01:00 elapsed - 0:01:22 remaining)   
+[#######################################>                                                             ] 39% done   
+[2AIn progress: SYN Stealth Scan (0:01:03 elapsed - 0:01:19 remaining)   
+[#########################################>                                                           ] 41% done   
+[2AIn progress: SYN Stealth Scan (0:01:06 elapsed - 0:01:16 remaining)   
+[############################################>                                                        ] 44% done   
+[2AIn progress: SYN Stealth Scan (0:01:09 elapsed - 0:01:13 remaining)   
+[##############################################>                                                      ] 46% done   
+[2AIn progress: SYN Stealth Scan (0:01:12 elapsed - 0:01:09 remaining)   
+[################################################>                                                    ] 48% done   
+[2AIn progress: SYN Stealth Scan (0:01:15 elapsed - 0:01:06 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: SYN Stealth Scan (0:01:18 elapsed - 0:01:03 remaining)   
+[#####################################################>                                               ] 53% done   
+[2AIn progress: SYN Stealth Scan (0:01:21 elapsed - 0:01:00 remaining)   
+[#######################################################>                                             ] 55% done   
+[2AIn progress: SYN Stealth Scan (0:01:24 elapsed - 0:00:57 remaining)   
+[#########################################################>                                           ] 57% done   
+[2AIn progress: SYN Stealth Scan (0:01:27 elapsed - 0:00:54 remaining)   
+[############################################################>                                        ] 60% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:51 remaining)   
+[##############################################################>                                      ] 62% done   
+[2AIn progress: SYN Stealth Scan (0:01:33 elapsed - 0:00:48 remaining)   
+[################################################################>                                    ] 64% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:45 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: SYN Stealth Scan (0:01:39 elapsed - 0:00:42 remaining)   
+[####################################################################>                                ] 68% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:39 remaining)   
+[#######################################################################>                             ] 71% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:36 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: SYN Stealth Scan (0:01:48 elapsed - 0:00:33 remaining)   
+[###########################################################################>                         ] 75% done   
+[2AIn progress: SYN Stealth Scan (0:01:51 elapsed - 0:00:30 remaining)   
+[#############################################################################>                       ] 77% done   
+[2AIn progress: SYN Stealth Scan (0:01:54 elapsed - 0:00:27 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: SYN Stealth Scan (0:01:57 elapsed - 0:00:24 remaining)   
+[##################################################################################>                  ] 82% done   
+[2AIn progress: SYN Stealth Scan (0:02:00 elapsed - 0:00:21 remaining)   
+[####################################################################################>                ] 84% done   
+[2AIn progress: SYN Stealth Scan (0:02:03 elapsed - 0:00:18 remaining)   
+[######################################################################################>              ] 86% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:15 remaining)   
+[########################################################################################>            ] 88% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:02:12 elapsed - 0:00:09 remaining)   
+[#############################################################################################>       ] 93% done   
+[2AIn progress: SYN Stealth Scan (0:02:15 elapsed - 0:00:06 remaining)   
+[###############################################################################################>     ] 95% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:03 remaining)   
+[#################################################################################################>   ] 97% done   
+[2AIn progress: SYN Stealth Scan (0:02:21 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+5985/tcp  open  wsman
+9389/tcp  open  adws
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49671/tcp open  unknown
+49676/tcp open  unknown
+49677/tcp open  unknown
+49684/tcp open  unknown
+49703/tcp open  unknown
+
+
+
+[0;33mMaking a script scan on extra ports: 5985, 9389, 47001, 49664, 49665, 49666, 49667, 49671, 49676, 49677, 49684, 49703
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Ping Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[####################################################################################################> ] 100% done   
+[2AIn progress: Ping Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[####################################################################################################> ] 100% done   
+[2AIn progress: Ping Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[####################################################################################################> ] 100% done   
+[2AIn progress: SYN Stealth Scan (0:00:07 elapsed - 0:00:01 remaining)   
+[#############################################>                                                       ] 45% done   
+[2AIn progress: Service Scan (0:00:08 elapsed - 0:00:11 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:08 elapsed - 0:00:11 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:01:17 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:01:17 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:01:17 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:01:17 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:01:17 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: Service Scan (0:00:24 elapsed - 0:01:25 remaining)   
+[################>                                                                                    ] 16% done   
+[2AIn progress: Script Scan (0:00:26 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:00:28 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:00:30 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:00:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:36 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:42 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:00:46 elapsed - 0:00:00 remaining)   
+[########################################################################################>            ] 88% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE    VERSION
+5985/tcp  open  wsman?
+9389/tcp  open  adws?
+47001/tcp open  winrm?
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49671/tcp open  unknown
+49676/tcp open  ncacn_http Microsoft Windows RPC over HTTP 1.0
+49677/tcp open  unknown
+49684/tcp open  unknown
+49703/tcp open  unknown
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+
+
+
+[0;32m----------------------Starting UDP Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2A[0K
+[0K
+
+
+[0;33mNo UDP ports are open
+[0m
+
+
+
+[0;32m---------------------Starting Vulns Scan-----------------------
+[0m
+[0;33mRunning CVE scan on all ports
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2A

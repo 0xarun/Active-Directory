@@ -1,0 +1,21 @@
+# Nmap 7.92 scan initiated Wed Feb  8 08:40:53 2023 as: /usr/bin/nmap -sCV -p5985,9389,47001,49664,49665,49666,49667,49671,49676,49677,49684,49703 --open -oN nmap/Full_Extra_10.10.10.161.nmap --system-dns --stats-every 2s 10.10.10.161
+Nmap scan report for 10.10.10.161
+Host is up (0.29s latency).
+
+PORT      STATE SERVICE    VERSION
+5985/tcp  open  wsman?
+9389/tcp  open  adws?
+47001/tcp open  winrm?
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49671/tcp open  unknown
+49676/tcp open  ncacn_http Microsoft Windows RPC over HTTP 1.0
+49677/tcp open  unknown
+49684/tcp open  unknown
+49703/tcp open  unknown
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb  8 08:41:41 2023 -- 1 IP address (1 host up) scanned in 47.48 seconds
