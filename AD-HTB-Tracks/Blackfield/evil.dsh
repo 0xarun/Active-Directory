@@ -1,0 +1,4 @@
+set context persistent nowriters
+add volume c: alias arun
+create
+expose %arun% z:

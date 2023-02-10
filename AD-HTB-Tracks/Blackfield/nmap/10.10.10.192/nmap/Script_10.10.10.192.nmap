@@ -1,0 +1,25 @@
+# Nmap 7.92 scan initiated Thu Feb  9 21:06:33 2023 as: /usr/bin/nmap -sCV -p53,88,135,389,445,593,3268 --open -oN nmap/Script_10.10.10.192.nmap --system-dns --stats-every 2s 10.10.10.192
+Nmap scan report for 10.10.10.192
+Host is up (0.29s latency).
+
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-02-09 23:36:50Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: BLACKFIELD.local0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: BLACKFIELD.local0., Site: Default-First-Site-Name)
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2023-02-09T23:37:10
+|_  start_date: N/A
+|_clock-skew: 8h00m00s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb  9 21:07:48 2023 -- 1 IP address (1 host up) scanned in 75.43 seconds

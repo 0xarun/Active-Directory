@@ -1,0 +1,1 @@
+# Nmap 7.92 scan initiated Thu Feb  9 21:13:35 2023 as: /usr/bin/nmap -sU --max-retries 1 --open --open -oN nmap/UDP_10.10.10.192.nmap --system-dns --stats-every 3s 10.10.10.192
