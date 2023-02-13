@@ -1,0 +1,14 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2023-02-13 12:10 IST
+WARNING: Duplicate port number(s) specified.  Are you alert enough to be using Nmap?  Have some coffee or Jolt(tm).
+Stats: 0:00:04 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 12.50% done; ETC: 12:10 (0:00:07 remaining)
+Stats: 0:00:09 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 37.50% done; ETC: 12:11 (0:00:12 remaining)
+Stats: 0:00:10 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 50.00% done; ETC: 12:11 (0:00:07 remaining)
+Stats: 0:00:15 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 75.00% done; ETC: 12:11 (0:00:04 remaining)
+Stats: 0:00:17 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 75.00% done; ETC: 12:11 (0:00:05 remaining)
+Stats: 0:00:20 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 75.00% done; ETC: 12:11 (0:00:06 remaining)

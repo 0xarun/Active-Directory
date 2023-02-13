@@ -1,0 +1,2 @@
+WARNING: Duplicate port number(s) specified.  Are you alert enough to be using Nmap?  Have some coffee or Jolt(tm).
+# Nmap 7.92 scan initiated Mon Feb 13 12:10:44 2023 as: /usr/bin/nmap -sV --script vulners --script-args mincvss=7.0 -p21,22,25,135,139,445,593,49159,21,22,25,135,139,445,593,49159 --open -oN nmap/CVEs_10.10.10.77.nmap --system-dns --stats-every 3s 10.10.10.77

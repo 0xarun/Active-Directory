@@ -1,0 +1,7 @@
+# Nmap 7.92 scan initiated Mon Feb 13 11:56:02 2023 as: /usr/bin/nmap -sU --max-retries 1 --open --open -oN nmap/UDP_10.10.10.77.nmap --system-dns --stats-every 3s 10.10.10.77
+Nmap scan report for reel.htb.local (10.10.10.77)
+Host is up (0.87s latency).
+All 1000 scanned ports on reel.htb.local (10.10.10.77) are in ignored states.
+Not shown: 1000 open|filtered udp ports (no-response)
+
+# Nmap done at Mon Feb 13 12:10:41 2023 -- 1 IP address (1 host up) scanned in 879.64 seconds
