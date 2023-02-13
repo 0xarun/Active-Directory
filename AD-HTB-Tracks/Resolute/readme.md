@@ -206,4 +206,4 @@ nt authority\system
 
 ```
 
-![DnsAdmin Privesc](/Active-Directory/AD-HTB-Tracks/Resolute/priv.png)
+![DnsAdmin Privesc](/AD-HTB-Tracks/Resolute/priv.png)
