@@ -1,4 +1,4 @@
-```
+```bash
 rpcclient $> queryuser 0x457
         User Name   :   marko
         Full Name   :   Marko Novak
@@ -206,4 +206,4 @@ nt authority\system
 
 ```
 
-[](priv.png)
+![DnsAdmin Privesc](/AD-HTB-Tracks/Resolute/priv.png)
