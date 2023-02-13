@@ -1,0 +1,42 @@
+[0;32m---------------------Recon Recommendations---------------------
+[0m
+[0m
+[0;33mDNS Recon:
+[0m
+host -l "10.10.10.169" "10.200.25.101" | tee "recon/hostname_10.10.10.169.txt"
+dnsrecon -r "10.10.10.0/24" -n "10.200.25.101" | tee "recon/dnsrecon_10.10.10.169.txt"
+dnsrecon -r 127.0.0.0/24 -n "10.200.25.101" | tee "recon/dnsrecon-local_10.10.10.169.txt"
+dig -x "10.10.10.169" @10.200.25.101 | tee "recon/dig_10.10.10.169.txt"
+
+[0m
+[0;33mWeb Servers Recon:
+[0m
+nikto -host "http://10.10.10.169:47001" | tee "recon/nikto_10.10.10.169_47001.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.10.169:47001/FUZZ" | tee "recon/ffuf_10.10.10.169_47001.txt"
+
+nikto -host "http://10.10.10.169:49678" | tee "recon/nikto_10.10.10.169_49678.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.10.169:49678/FUZZ" | tee "recon/ffuf_10.10.10.169_49678.txt"
+
+nikto -host "http://10.10.10.169:593" | tee "recon/nikto_10.10.10.169_593.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.10.169:593/FUZZ" | tee "recon/ffuf_10.10.10.169_593.txt"
+
+nikto -host "http://10.10.10.169:5985" | tee "recon/nikto_10.10.10.169_5985.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.10.169:5985/FUZZ" | tee "recon/ffuf_10.10.10.169_5985.txt"
+
+[0m
+[0;33mldap Recon:
+[0m
+ldapsearch -x -h "10.10.10.169" -s base | tee "recon/ldapsearch_10.10.10.169.txt"
+ldapsearch -x -h "10.10.10.169" -b "$(grep rootDomainNamingContext "recon/ldapsearch_10.10.10.169.txt" | cut -d ' ' -f2)" | tee "recon/ldapsearch_DC_10.10.10.169.txt"
+nmap -Pn -p 389 --script ldap-search --script-args 'ldap.username="$(grep rootDomainNamingContext "recon/ldapsearch_10.10.10.169.txt" | cut -d \ \ -f2)"' "10.10.10.169" -oN "recon/nmap_ldap_10.10.10.169.txt"
+
+[0m
+[0;33mSMB Recon:
+[0m
+smbmap -H "10.10.10.169" | tee "recon/smbmap_10.10.10.169.txt"
+smbclient -L "//10.10.10.169/" -U "guest"% | tee "recon/smbclient_10.10.10.169.txt"
+nmap -Pn -p445 --script vuln -oN "recon/SMB_vulns_10.10.10.169.txt" "10.10.10.169"
+
+
+
+
