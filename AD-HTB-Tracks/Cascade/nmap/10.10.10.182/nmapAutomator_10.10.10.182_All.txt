@@ -1,0 +1,1977 @@
+
+[0;33mRunning all scans on [0m10.10.10.182
+[0m
+[0;32mHost is likely running Windows
+
+
+[0;32m---------------------Starting Port Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:01 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:02 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:03 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:04 elapsed - 0:04:06 remaining)   
+[#>                                                                                                   ] 1% done   
+[2AIn progress: SYN Stealth Scan (0:00:06 elapsed - 0:01:50 remaining)   
+[###>                                                                                                 ] 3% done   
+[2AIn progress: SYN Stealth Scan (0:00:06 elapsed - 0:01:50 remaining)   
+[####>                                                                                                ] 4% done   
+[2AIn progress: SYN Stealth Scan (0:00:07 elapsed - 0:01:28 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: SYN Stealth Scan (0:00:08 elapsed - 0:00:38 remaining)   
+[#############>                                                                                       ] 13% done   
+[2AIn progress: SYN Stealth Scan (0:00:10 elapsed - 0:00:33 remaining)   
+[#####################>                                                                               ] 21% done   
+[2AIn progress: SYN Stealth Scan (0:00:10 elapsed - 0:00:33 remaining)   
+[#####################>                                                                               ] 21% done   
+[2AIn progress: SYN Stealth Scan (0:00:12 elapsed - 0:00:25 remaining)   
+[##############################>                                                                      ] 30% done   
+[2AIn progress: SYN Stealth Scan (0:00:13 elapsed - 0:00:20 remaining)   
+[#####################################>                                                               ] 37% done   
+[2AIn progress: SYN Stealth Scan (0:00:14 elapsed - 0:00:17 remaining)   
+[###########################################>                                                         ] 43% done   
+[2AIn progress: SYN Stealth Scan (0:00:15 elapsed - 0:00:14 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: SYN Stealth Scan (0:00:16 elapsed - 0:00:12 remaining)   
+[########################################################>                                            ] 56% done   
+[2AIn progress: SYN Stealth Scan (0:00:17 elapsed - 0:00:09 remaining)   
+[################################################################>                                    ] 64% done   
+[2AIn progress: SYN Stealth Scan (0:00:18 elapsed - 0:00:07 remaining)   
+[######################################################################>                              ] 70% done   
+[2AIn progress: SYN Stealth Scan (0:00:19 elapsed - 0:00:05 remaining)   
+[##############################################################################>                      ] 78% done   
+[2AIn progress: SYN Stealth Scan (0:00:20 elapsed - 0:00:03 remaining)   
+[#######################################################################################>             ] 87% done   
+[2AIn progress: SYN Stealth Scan (0:00:21 elapsed - 0:00:01 remaining)   
+[#################################################################################################>   ] 97% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+
+
+
+[0;32m---------------------Starting Script Scan-----------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:04 elapsed - 0:00:12 remaining)   
+[#######>                                                                                             ] 7% done   
+[2AIn progress: Service Scan (0:00:04 elapsed - 0:00:12 remaining)   
+[#######>                                                                                             ] 7% done   
+[2AIn progress: Service Scan (0:00:04 elapsed - 0:00:12 remaining)   
+[#######>                                                                                             ] 7% done   
+[2AIn progress: Service Scan (0:00:10 elapsed - 0:00:23 remaining)   
+[#######################>                                                                             ] 23% done   
+[2AIn progress: Service Scan (0:00:12 elapsed - 0:00:04 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:05 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:16 elapsed - 0:00:06 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:18 elapsed - 0:00:07 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:20 elapsed - 0:00:08 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:22 elapsed - 0:00:09 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:24 elapsed - 0:00:10 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:26 elapsed - 0:00:11 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:28 elapsed - 0:00:11 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:12 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:32 elapsed - 0:00:13 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:32 elapsed - 0:00:13 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:32 elapsed - 0:00:13 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:11 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:11 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:11 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:11 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:47 elapsed - 0:00:13 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:47 elapsed - 0:00:13 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:47 elapsed - 0:00:13 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:53 elapsed - 0:00:15 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:53 elapsed - 0:00:15 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:53 elapsed - 0:00:15 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:59 elapsed - 0:00:17 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:00:59 elapsed - 0:00:17 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Service Scan (0:01:04 elapsed - 0:00:18 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: Script Scan (0:01:06 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:12 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:14 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:18 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:20 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:24 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:26 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:30 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:32 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:36 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:38 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:42 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:44 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:46 elapsed - 0:00:00 remaining)   
+[##############################################################################################>      ] 94% done   
+[2AIn progress: Script Scan (0:01:48 elapsed - 0:00:00 remaining)   
+[###############################################################################################>     ] 95% done   
+[2AIn progress: Script Scan (0:01:50 elapsed - 0:00:00 remaining)   
+[################################################################################################>    ] 96% done   
+[2AIn progress: Script Scan (0:01:52 elapsed - 0:00:00 remaining)   
+[#################################################################################################>   ] 97% done   
+[2AIn progress: Script Scan (0:01:54 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-02-14 06:32:02Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: CASC-DC1; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2023-02-14T06:32:59
+|_  start_date: 2023-02-14T06:25:24
+| smb2-security-mode: 
+|   2.1: 
+|_    Message signing enabled and required
+|_clock-skew: 1h00m49s
+
+
+
+
+[0;32m---------------------Starting Full Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:09 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:12 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:15 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:00:18 elapsed - 0:25:51 remaining)   
+[#>                                                                                                   ] 1% done   
+[2AIn progress: SYN Stealth Scan (0:00:21 elapsed - 0:22:29 remaining)   
+[#>                                                                                                   ] 1% done   
+[2AIn progress: SYN Stealth Scan (0:00:24 elapsed - 0:19:31 remaining)   
+[#>                                                                                                   ] 1% done   
+[2AIn progress: SYN Stealth Scan (0:00:27 elapsed - 0:17:58 remaining)   
+[##>                                                                                                  ] 2% done   
+[2AIn progress: SYN Stealth Scan (0:00:30 elapsed - 0:16:19 remaining)   
+[##>                                                                                                  ] 2% done   
+[2AIn progress: SYN Stealth Scan (0:00:33 elapsed - 0:15:04 remaining)   
+[###>                                                                                                 ] 3% done   
+[2AIn progress: SYN Stealth Scan (0:00:36 elapsed - 0:14:02 remaining)   
+[###>                                                                                                 ] 3% done   
+[2AIn progress: SYN Stealth Scan (0:00:39 elapsed - 0:13:10 remaining)   
+[####>                                                                                                ] 4% done   
+[2AIn progress: SYN Stealth Scan (0:00:42 elapsed - 0:12:13 remaining)   
+[#####>                                                                                               ] 5% done   
+[2AIn progress: SYN Stealth Scan (0:00:45 elapsed - 0:11:15 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: SYN Stealth Scan (0:00:48 elapsed - 0:10:26 remaining)   
+[######>                                                                                              ] 6% done   
+[2AIn progress: SYN Stealth Scan (0:00:51 elapsed - 0:09:45 remaining)   
+[#######>                                                                                             ] 7% done   
+[2AIn progress: SYN Stealth Scan (0:00:54 elapsed - 0:09:09 remaining)   
+[########>                                                                                            ] 8% done   
+[2AIn progress: SYN Stealth Scan (0:00:57 elapsed - 0:08:33 remaining)   
+[#########>                                                                                           ] 9% done   
+[2AIn progress: SYN Stealth Scan (0:01:00 elapsed - 0:08:01 remaining)   
+[##########>                                                                                          ] 10% done   
+[2AIn progress: SYN Stealth Scan (0:01:03 elapsed - 0:07:29 remaining)   
+[############>                                                                                        ] 12% done   
+[2AIn progress: SYN Stealth Scan (0:01:06 elapsed - 0:07:05 remaining)   
+[#############>                                                                                       ] 13% done   
+[2AIn progress: SYN Stealth Scan (0:01:09 elapsed - 0:06:40 remaining)   
+[##############>                                                                                      ] 14% done   
+[2AIn progress: SYN Stealth Scan (0:01:12 elapsed - 0:06:20 remaining)   
+[###############>                                                                                     ] 15% done   
+[2AIn progress: SYN Stealth Scan (0:01:15 elapsed - 0:06:00 remaining)   
+[#################>                                                                                   ] 17% done   
+[2AIn progress: SYN Stealth Scan (0:01:18 elapsed - 0:05:41 remaining)   
+[##################>                                                                                  ] 18% done   
+[2AIn progress: SYN Stealth Scan (0:01:21 elapsed - 0:05:24 remaining)   
+[###################>                                                                                 ] 19% done   
+[2AIn progress: SYN Stealth Scan (0:01:24 elapsed - 0:05:09 remaining)   
+[#####################>                                                                               ] 21% done   
+[2AIn progress: SYN Stealth Scan (0:01:27 elapsed - 0:04:54 remaining)   
+[######################>                                                                              ] 22% done   
+[2AIn progress: SYN Stealth Scan (0:01:30 elapsed - 0:04:42 remaining)   
+[#######################>                                                                             ] 23% done   
+[2AIn progress: SYN Stealth Scan (0:01:33 elapsed - 0:04:32 remaining)   
+[#########################>                                                                           ] 25% done   
+[2AIn progress: SYN Stealth Scan (0:00:00 elapsed - 0:04:22 remaining)   
+[##########################>                                                                          ] 26% done   
+[2AIn progress: SYN Stealth Scan (0:01:39 elapsed - 0:04:14 remaining)   
+[###########################>                                                                         ] 27% done   
+[2AIn progress: SYN Stealth Scan (0:01:42 elapsed - 0:04:05 remaining)   
+[#############################>                                                                       ] 29% done   
+[2AIn progress: SYN Stealth Scan (0:01:45 elapsed - 0:03:56 remaining)   
+[##############################>                                                                      ] 30% done   
+[2AIn progress: SYN Stealth Scan (0:01:48 elapsed - 0:03:48 remaining)   
+[###############################>                                                                     ] 31% done   
+[2AIn progress: SYN Stealth Scan (0:01:51 elapsed - 0:03:39 remaining)   
+[#################################>                                                                   ] 33% done   
+[2AIn progress: SYN Stealth Scan (0:01:54 elapsed - 0:03:31 remaining)   
+[##################################>                                                                  ] 34% done   
+[2AIn progress: SYN Stealth Scan (0:01:57 elapsed - 0:03:23 remaining)   
+[####################################>                                                                ] 36% done   
+[2AIn progress: SYN Stealth Scan (0:02:00 elapsed - 0:03:16 remaining)   
+[#####################################>                                                               ] 37% done   
+[2AIn progress: SYN Stealth Scan (0:02:03 elapsed - 0:03:08 remaining)   
+[#######################################>                                                             ] 39% done   
+[2AIn progress: SYN Stealth Scan (0:02:06 elapsed - 0:03:01 remaining)   
+[########################################>                                                            ] 40% done   
+[2AIn progress: SYN Stealth Scan (0:02:09 elapsed - 0:02:58 remaining)   
+[#########################################>                                                           ] 41% done   
+[2AIn progress: SYN Stealth Scan (0:02:12 elapsed - 0:02:57 remaining)   
+[##########################################>                                                          ] 42% done   
+[2AIn progress: SYN Stealth Scan (0:02:15 elapsed - 0:02:58 remaining)   
+[##########################################>                                                          ] 42% done   
+[2AIn progress: SYN Stealth Scan (0:02:18 elapsed - 0:03:01 remaining)   
+[###########################################>                                                         ] 43% done   
+[2AIn progress: SYN Stealth Scan (0:02:21 elapsed - 0:03:03 remaining)   
+[###########################################>                                                         ] 43% done   
+[2AIn progress: SYN Stealth Scan (0:02:24 elapsed - 0:03:05 remaining)   
+[###########################################>                                                         ] 43% done   
+[2AIn progress: SYN Stealth Scan (0:02:27 elapsed - 0:03:06 remaining)   
+[###########################################>                                                         ] 43% done   
+[2AIn progress: SYN Stealth Scan (0:02:30 elapsed - 0:03:07 remaining)   
+[############################################>                                                        ] 44% done   
+[2AIn progress: SYN Stealth Scan (0:02:33 elapsed - 0:03:07 remaining)   
+[############################################>                                                        ] 44% done   
+[2AIn progress: SYN Stealth Scan (0:02:36 elapsed - 0:03:07 remaining)   
+[#############################################>                                                       ] 45% done   
+[2AIn progress: SYN Stealth Scan (0:02:39 elapsed - 0:03:08 remaining)   
+[#############################################>                                                       ] 45% done   
+[2AIn progress: SYN Stealth Scan (0:02:42 elapsed - 0:03:07 remaining)   
+[##############################################>                                                      ] 46% done   
+[2AIn progress: SYN Stealth Scan (0:02:45 elapsed - 0:03:06 remaining)   
+[##############################################>                                                      ] 46% done   
+[2AIn progress: SYN Stealth Scan (0:02:48 elapsed - 0:03:04 remaining)   
+[###############################################>                                                     ] 47% done   
+[2AIn progress: SYN Stealth Scan (0:02:51 elapsed - 0:03:02 remaining)   
+[################################################>                                                    ] 48% done   
+[2AIn progress: SYN Stealth Scan (0:02:54 elapsed - 0:03:00 remaining)   
+[#################################################>                                                   ] 49% done   
+[2AIn progress: SYN Stealth Scan (0:02:57 elapsed - 0:02:57 remaining)   
+[#################################################>                                                   ] 49% done   
+[2AIn progress: SYN Stealth Scan (0:03:00 elapsed - 0:02:54 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: SYN Stealth Scan (0:03:03 elapsed - 0:02:49 remaining)   
+[###################################################>                                                 ] 51% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:02:46 remaining)   
+[####################################################>                                                ] 52% done   
+[2AIn progress: SYN Stealth Scan (0:03:09 elapsed - 0:02:41 remaining)   
+[#####################################################>                                               ] 53% done   
+[2AIn progress: SYN Stealth Scan (0:03:12 elapsed - 0:02:36 remaining)   
+[######################################################>                                              ] 54% done   
+[2AIn progress: SYN Stealth Scan (0:03:15 elapsed - 0:02:32 remaining)   
+[########################################################>                                            ] 56% done   
+[2AIn progress: SYN Stealth Scan (0:03:18 elapsed - 0:02:27 remaining)   
+[#########################################################>                                           ] 57% done   
+[2AIn progress: SYN Stealth Scan (0:03:21 elapsed - 0:02:22 remaining)   
+[##########################################################>                                          ] 58% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:02:17 remaining)   
+[###########################################################>                                         ] 59% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:02:11 remaining)   
+[#############################################################>                                       ] 61% done   
+[2AIn progress: SYN Stealth Scan (0:03:30 elapsed - 0:02:06 remaining)   
+[##############################################################>                                      ] 62% done   
+[2AIn progress: SYN Stealth Scan (0:03:33 elapsed - 0:02:01 remaining)   
+[###############################################################>                                     ] 63% done   
+[2AIn progress: SYN Stealth Scan (0:03:36 elapsed - 0:01:55 remaining)   
+[#################################################################>                                   ] 65% done   
+[2AIn progress: SYN Stealth Scan (0:03:42 elapsed - 0:01:45 remaining)   
+[###################################################################>                                 ] 67% done   
+[2AIn progress: SYN Stealth Scan (0:03:45 elapsed - 0:01:42 remaining)   
+[####################################################################>                                ] 68% done   
+[2AIn progress: SYN Stealth Scan (0:03:48 elapsed - 0:01:41 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: SYN Stealth Scan (0:03:51 elapsed - 0:01:39 remaining)   
+[#####################################################################>                               ] 69% done   
+[2AIn progress: SYN Stealth Scan (0:03:54 elapsed - 0:01:38 remaining)   
+[######################################################################>                              ] 70% done   
+[2AIn progress: SYN Stealth Scan (0:03:57 elapsed - 0:01:36 remaining)   
+[#######################################################################>                             ] 71% done   
+[2AIn progress: SYN Stealth Scan (0:04:00 elapsed - 0:01:33 remaining)   
+[#######################################################################>                             ] 71% done   
+[2AIn progress: SYN Stealth Scan (0:04:03 elapsed - 0:01:31 remaining)   
+[########################################################################>                            ] 72% done   
+[2AIn progress: SYN Stealth Scan (0:04:06 elapsed - 0:01:28 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: SYN Stealth Scan (0:04:09 elapsed - 0:01:25 remaining)   
+[##########################################################################>                          ] 74% done   
+[2AIn progress: SYN Stealth Scan (0:04:12 elapsed - 0:01:22 remaining)   
+[###########################################################################>                         ] 75% done   
+[2AIn progress: SYN Stealth Scan (0:04:15 elapsed - 0:01:18 remaining)   
+[############################################################################>                        ] 76% done   
+[2AIn progress: SYN Stealth Scan (0:04:18 elapsed - 0:01:15 remaining)   
+[#############################################################################>                       ] 77% done   
+[2AIn progress: SYN Stealth Scan (0:04:21 elapsed - 0:01:11 remaining)   
+[##############################################################################>                      ] 78% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:01:07 remaining)   
+[###############################################################################>                     ] 79% done   
+[2AIn progress: SYN Stealth Scan (0:04:27 elapsed - 0:01:03 remaining)   
+[################################################################################>                    ] 80% done   
+[2AIn progress: SYN Stealth Scan (0:04:30 elapsed - 0:00:58 remaining)   
+[##################################################################################>                  ] 82% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:54 remaining)   
+[###################################################################################>                 ] 83% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: SYN Stealth Scan (0:04:39 elapsed - 0:00:46 remaining)   
+[#####################################################################################>               ] 85% done   
+[2AIn progress: SYN Stealth Scan (0:04:42 elapsed - 0:00:41 remaining)   
+[#######################################################################################>             ] 87% done   
+[2AIn progress: SYN Stealth Scan (0:04:45 elapsed - 0:00:37 remaining)   
+[########################################################################################>            ] 88% done   
+[2AIn progress: SYN Stealth Scan (0:04:48 elapsed - 0:00:32 remaining)   
+[#########################################################################################>           ] 89% done   
+[2AIn progress: SYN Stealth Scan (0:04:51 elapsed - 0:00:27 remaining)   
+[###########################################################################################>         ] 91% done   
+[2AIn progress: SYN Stealth Scan (0:04:54 elapsed - 0:00:23 remaining)   
+[############################################################################################>        ] 92% done   
+[2AIn progress: SYN Stealth Scan (0:04:57 elapsed - 0:00:18 remaining)   
+[##############################################################################################>      ] 94% done   
+[2AIn progress: SYN Stealth Scan (0:05:00 elapsed - 0:00:13 remaining)   
+[###############################################################################################>     ] 95% done   
+[2AIn progress: SYN Stealth Scan (0:05:03 elapsed - 0:00:08 remaining)   
+[#################################################################################################>   ] 97% done   
+[2AIn progress: SYN Stealth Scan (0:05:06 elapsed - 0:00:04 remaining)   
+[##################################################################################################>  ] 98% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+5985/tcp  open  wsman
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+49170/tcp open  unknown
+
+
+
+[0;33mMaking a script scan on extra ports: 5985, 49170
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:08 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:08 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:12 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:12 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:14 elapsed - 0:00:12 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:19 elapsed - 0:00:17 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:19 elapsed - 0:00:17 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:19 elapsed - 0:00:17 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:25 elapsed - 0:00:22 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:25 elapsed - 0:00:22 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:28 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:31 elapsed - 0:00:28 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:31 elapsed - 0:00:28 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:31 elapsed - 0:00:28 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:37 elapsed - 0:00:35 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:37 elapsed - 0:00:35 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:37 elapsed - 0:00:35 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:43 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:43 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:43 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:51 elapsed - 0:00:49 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:51 elapsed - 0:00:49 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:51 elapsed - 0:00:49 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:54 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:54 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:54 remaining)   
+[##################################################>                                                  ] 50% done   
+[2AIn progress: Script Scan (0:01:02 elapsed - 0:00:00 remaining)   
+[##########################################################################################>          ] 90% done   
+[2AIn progress: Script Scan (0:01:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:06 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:08 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE VERSION
+5985/tcp  open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49170/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+
+
+
+[0;32m----------------------Starting UDP Scan------------------------
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: UDP Scan (0:00:03 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: UDP Scan (0:00:03 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: UDP Scan (0:00:09 elapsed - 0:07:21 remaining)   
+[##>                                                                                                  ] 2% done   
+[2AIn progress: UDP Scan (0:00:09 elapsed - 0:07:21 remaining)   
+[##>                                                                                                  ] 2% done   
+[2AIn progress: UDP Scan (0:00:15 elapsed - 0:06:54 remaining)   
+[###>                                                                                                 ] 3% done   
+[2AIn progress: UDP Scan (0:00:18 elapsed - 0:03:56 remaining)   
+[#######>                                                                                             ] 7% done   
+[2AIn progress: UDP Scan (0:00:21 elapsed - 0:02:03 remaining)   
+[##############>                                                                                      ] 14% done   
+[2AIn progress: UDP Scan (0:00:24 elapsed - 0:01:07 remaining)   
+[##########################>                                                                          ] 26% done   
+[2AIn progress: UDP Scan (0:00:27 elapsed - 0:00:38 remaining)   
+[#########################################>                                                           ] 41% done   
+[2AIn progress: UDP Scan (0:00:30 elapsed - 0:00:20 remaining)   
+[###########################################################>                                         ] 59% done   
+[2AIn progress: UDP Scan (0:00:33 elapsed - 0:00:07 remaining)   
+[#################################################################################>                   ] 81% done   
+[2A[0K
+[0K
+PORT    STATE SERVICE
+53/udp  open  domain
+123/udp open  ntp
+
+
+[0;33mMaking a script scan on UDP ports: 53, 123
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Script Scan (0:00:04 elapsed - 0:00:00 remaining)   
+[#################################################################################################>   ] 97% done   
+[2A[0K
+[0K
+PORT    STATE SERVICE VERSION
+53/udp  open  domain  Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+123/udp open  ntp     NTP v3
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1
+
+
+
+
+[0;32m---------------------Starting Vulns Scan-----------------------
+[0m
+[0;33mRunning CVE scan on all ports
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:09 elapsed - 0:00:08 remaining)   
+[##############################################>                                                      ] 46% done   
+[2AIn progress: Service Scan (0:00:12 elapsed - 0:00:06 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:15 elapsed - 0:00:07 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:18 elapsed - 0:00:09 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:21 elapsed - 0:00:10 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:24 elapsed - 0:00:12 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:24 elapsed - 0:00:12 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:15 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:15 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:15 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:37 elapsed - 0:00:13 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:37 elapsed - 0:00:13 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:16 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:45 elapsed - 0:00:16 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:51 elapsed - 0:00:18 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:51 elapsed - 0:00:18 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:20 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:20 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Script Scan (0:01:02 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-02-14 06:41:05Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc         Microsoft Windows RPC
+49170/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: CASC-DC1; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+
+
+[0;33mRunning Vuln scan on all ports
+[0;33mThis may take a while, depending on the number of detected services..
+[0m
+In progress: No Scan (0:00:00 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:03 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:06 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:09 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:12 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:12 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: No Scan (0:00:12 elapsed - 0:00:00 remaining)   
+[#>                                                                                                    ] 0% done   
+[2AIn progress: Service Scan (0:00:20 elapsed - 0:00:09 remaining)   
+[##############################################>                                                      ] 46% done   
+[2AIn progress: Service Scan (0:00:23 elapsed - 0:00:06 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:26 elapsed - 0:00:07 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:30 elapsed - 0:00:09 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:33 elapsed - 0:00:10 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:35 elapsed - 0:00:12 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:39 elapsed - 0:00:13 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:42 elapsed - 0:00:15 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:42 elapsed - 0:00:15 remaining)   
+[##################################################################>                                  ] 66% done   
+[2AIn progress: Service Scan (0:00:48 elapsed - 0:00:13 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:48 elapsed - 0:00:13 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:48 elapsed - 0:00:13 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:16 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:00:56 elapsed - 0:00:16 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:01:02 elapsed - 0:00:18 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:01:02 elapsed - 0:00:18 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:01:07 elapsed - 0:00:20 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Service Scan (0:01:07 elapsed - 0:00:20 remaining)   
+[#########################################################################>                           ] 73% done   
+[2AIn progress: Script Scan (0:01:14 elapsed - 0:00:00 remaining)   
+[##############################################################################################>      ] 94% done   
+[2AIn progress: Script Scan (0:01:16 elapsed - 0:00:00 remaining)   
+[#################################################################################################>   ] 97% done   
+[2AIn progress: Script Scan (0:01:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:01:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:02:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:03:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:04:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:05:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:06:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:07:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:08:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:09:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:10:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:11:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:12:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:13:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:14:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:49 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:52 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:55 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:15:58 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:01 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:04 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:07 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:10 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:13 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:16 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:19 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:22 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:25 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:28 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:31 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:34 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:37 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:40 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:43 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:46 elapsed - 0:00:00 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:16:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:17:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:18:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:19:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:20:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:21:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:22:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:23:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:24:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:25:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:26:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:27:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:40 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:43 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:46 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:49 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:52 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:55 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:28:58 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:01 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:04 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:07 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:10 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:13 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:16 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:19 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:22 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:25 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:28 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:31 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:34 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:37 elapsed - 0:00:01 remaining)   
+[###################################################################################################> ] 99% done   
+[2AIn progress: Script Scan (0:29:40 elapsed - 0:00:00 remaining)   
+[#############################################################################################>       ] 93% done   
+[2AIn progress: Script Scan (0:29:43 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:29:46 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2AIn progress: Script Scan (0:29:49 elapsed - 0:00:00 remaining)   
+[##################################################################################################>  ] 98% done   
+[2A[0K
+[0K
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-02-14 06:42:24Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+636/tcp   open  tcpwrapped
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc         Microsoft Windows RPC
+49170/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: CASC-DC1; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Host script results:
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+
+
+
+
+[0;32m---------------------Recon Recommendations---------------------
+[0m
+[0m
+[0;33mDNS Recon:
+[0m
+host -l "10.10.10.182" "192.168.43.1" | tee "recon/hostname_10.10.10.182.txt"
+dnsrecon -r "10.10.10.0/24" -n "192.168.43.1" | tee "recon/dnsrecon_10.10.10.182.txt"
+dnsrecon -r 127.0.0.0/24 -n "192.168.43.1" | tee "recon/dnsrecon-local_10.10.10.182.txt"
+dig -x "10.10.10.182" @192.168.43.1 | tee "recon/dig_10.10.10.182.txt"
+
+[0m
+[0;33mWeb Servers Recon:
+[0m
+nikto -host "http://10.10.10.182:49157" | tee "recon/nikto_10.10.10.182_49157.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.10.182:49157/FUZZ" | tee "recon/ffuf_10.10.10.182_49157.txt"
+
+nikto -host "http://10.10.10.182:5985" | tee "recon/nikto_10.10.10.182_5985.txt"
+ffuf -ic -w /usr/share/wordlists/dirb/common.txt -e '' -u "http://10.10.10.182:5985/FUZZ" | tee "recon/ffuf_10.10.10.182_5985.txt"
+
+[0m
+[0;33mldap Recon:
+[0m
+ldapsearch -x -h "10.10.10.182" -s base | tee "recon/ldapsearch_10.10.10.182.txt"
+ldapsearch -x -h "10.10.10.182" -b "$(grep rootDomainNamingContext "recon/ldapsearch_10.10.10.182.txt" | cut -d ' ' -f2)" | tee "recon/ldapsearch_DC_10.10.10.182.txt"
+nmap -Pn -p 389 --script ldap-search --script-args 'ldap.username="$(grep rootDomainNamingContext "recon/ldapsearch_10.10.10.182.txt" | cut -d \ \ -f2)"' "10.10.10.182" -oN "recon/nmap_ldap_10.10.10.182.txt"
+
+[0m
+[0;33mSMB Recon:
+[0m
+smbmap -H "10.10.10.182" | tee "recon/smbmap_10.10.10.182.txt"
+smbclient -L "//10.10.10.182/" -U "guest"% | tee "recon/smbclient_10.10.10.182.txt"
+nmap -Pn -p445 --script vuln -oN "recon/SMB_vulns_10.10.10.182.txt" "10.10.10.182"
+
+
+
+
+[0;33m
+Which commands would you like to run?[0m
+All (Default), dig, dnsrecon, ffuf, host, ldapsearch, nikto, nmap, smbclient, smbmap, Skip <!>
+
+[2KRunning Default in (30)s: [2KRunning Default in (29)s: [2KRunning Default in (28)s: [2KRunning Default in (27)s: [2KRunning Default in (26)s: [2KRunning Default in (25)s: [2KRunning Default in (24)s: [2KRunning Default in (23)s: [2KRunning Default in (22)s: [2KRunning Default in (21)s: [2KRunning Default in (20)s: [2KRunning Default in (19)s: [2KRunning Default in (18)s: [2KRunning Default in (17)s: [2KRunning Default in (16)s: [2KRunning Default in (15)s: [2KRunning Default in (14)s: [2KRunning Default in (13)s: [2KRunning Default in (12)s: [2KRunning Default in (11)s: [2KRunning Default in (10)s: [2KRunning Default in (9)s: [2KRunning Default in (8)s: [2KRunning Default in (7)s: [2KRunning Default in (6)s: [2KRunning Default in (5)s: [2KRunning Default in (4)s: [2KRunning Default in (3)s: [2KRunning Default in (2)s: [2KRunning Default in (1)s: 
+
+
+[0;32m---------------------Running Recon Commands--------------------
+[0m
+[0m
+[0;33mStarting host scan
+[0m
+;; connection timed out; no servers could be reached
+
+[0m
+[0;33mFinished host scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting dnsrecon scan
+[0m
+[*] Performing Reverse Lookup from 10.10.10.0 to 10.10.10.255
+[+] 0 Records Found
+[0m
+[0;33mFinished dnsrecon scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting dnsrecon scan
+[0m
+[*] Performing Reverse Lookup from 127.0.0.0 to 127.0.0.255
+[+] 	 PTR localhost 127.0.0.1
+[+] 1 Records Found
+[0m
+[0;33mFinished dnsrecon scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting dig scan
+[0m
+
+; <<>> DiG 9.18.1-1-Debian <<>> -x 10.10.10.182 @192.168.43.1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35590
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;182.10.10.10.in-addr.arpa.	IN	PTR
+
+;; Query time: 23 msec
+;; SERVER: 192.168.43.1#53(192.168.43.1) (UDP)
+;; WHEN: Tue Feb 14 11:45:39 IST 2023
+;; MSG SIZE  rcvd: 43
+
+[0m
+[0;33mFinished dig scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting nikto scan
+[0m
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ No web server found on 10.10.10.182:49157
+---------------------------------------------------------------------------
++ 0 host(s) tested
+[0m
+[0;33mFinished nikto scan
+[0m
+[0;33m=========================
+[0m
+[0;33mStarting ffuf scan
+[0m

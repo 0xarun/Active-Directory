@@ -1,0 +1,9 @@
+# Nmap 7.92 scan initiated Tue Feb 14 11:09:22 2023 as: /usr/bin/nmap -sU --max-retries 1 --open --open -oN nmap/UDP_10.10.10.182.nmap --system-dns --stats-every 3s 10.10.10.182
+Nmap scan report for cascade.local (10.10.10.182)
+Host is up (0.34s latency).
+Not shown: 998 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+53/udp  open  domain
+123/udp open  ntp
+
+# Nmap done at Tue Feb 14 11:09:58 2023 -- 1 IP address (1 host up) scanned in 36.41 seconds

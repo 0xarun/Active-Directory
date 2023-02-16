@@ -1,0 +1,33 @@
+Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Tue Feb 14 11:31:14 2023
+
+[34m =========================================( [0m[32mTarget Information[0m[34m )=========================================
+
+[0mTarget ........... 10.10.10.182
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+[34m ============================( [0m[32mEnumerating Workgroup/Domain on 10.10.10.182[0m[34m )============================
+
+[0m[33m
+[E] [0m[31mCan't find workgroup/domain
+
+[0m
+
+[34m ===================================( [0m[32mSession Check on 10.10.10.182[0m[34m )===================================
+
+[0m[33m
+[+] [0m[32mServer 10.10.10.182 allows sessions using username '', password ''
+
+[0m
+[34m ================================( [0m[32mGetting domain SID for 10.10.10.182[0m[34m )================================
+
+[0mDomain Name: CASCADE
+Domain Sid: S-1-5-21-3332504370-1206983947-1165150453
+[33m
+[+] [0m[32mHost is part of a domain (not a workgroup)
+
+[0menum4linux complete on Tue Feb 14 11:31:35 2023
+

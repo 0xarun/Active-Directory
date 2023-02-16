@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Tue Feb 14 11:08:09 2023 as: /usr/bin/nmap -sCV -p5985,49170 --open -oN nmap/Full_Extra_10.10.10.182.nmap --system-dns --stats-every 2s 10.10.10.182
+Nmap scan report for cascade.local (10.10.10.182)
+Host is up (0.40s latency).
+
+PORT      STATE SERVICE VERSION
+5985/tcp  open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49170/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 14 11:09:20 2023 -- 1 IP address (1 host up) scanned in 70.52 seconds

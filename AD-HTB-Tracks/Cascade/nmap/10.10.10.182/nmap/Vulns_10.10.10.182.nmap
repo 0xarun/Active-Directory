@@ -1,0 +1,36 @@
+WARNING: Duplicate port number(s) specified.  Are you alert enough to be using Nmap?  Have some coffee or Jolt(tm).
+# Nmap 7.92 scan initiated Tue Feb 14 11:11:13 2023 as: /usr/bin/nmap -sV --script vuln -p53,88,135,139,389,445,636,3268,3269,49154,49155,49157,49158,53,88,135,139,389,445,636,3268,3269,5985,49154,49155,49157,49158,49170 --open -oN nmap/Vulns_10.10.10.182.nmap --system-dns --stats-every 3s 10.10.10.182
+Nmap scan report for cascade.local (10.10.10.182)
+Host is up (0.37s latency).
+
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain        Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2023-02-14 06:42:24Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+636/tcp   open  tcpwrapped
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: cascade.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+49154/tcp open  msrpc         Microsoft Windows RPC
+49155/tcp open  msrpc         Microsoft Windows RPC
+49157/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc         Microsoft Windows RPC
+49170/tcp open  msrpc         Microsoft Windows RPC
+Service Info: Host: CASC-DC1; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Host script results:
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 14 11:41:05 2023 -- 1 IP address (1 host up) scanned in 1792.39 seconds
